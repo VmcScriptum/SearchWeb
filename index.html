@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchWeb - Pesquisa Aprofundada em PDFs</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>SearchWeb</h1>
+      <p>Pesquisa aprofundada em documentos PDF</p>
+    </header>
+    <main>
+      <section class="upload-section">
+        <h2>Carregar Documentos</h2>
+        <form id="upload-form">
+          <div class="drop-zone" id="drop-zone">
+            <span class="drop-zone__prompt">Arraste seu arquivo PDF aqui ou clique para selecionar</span>
+            <input type="file" name="pdf-file" id="pdf-file" accept="application/pdf" class="drop-zone__input" multiple>
+          </div>
+          <div id="file-list" class="file-list"></div>
+        </form>
+      </section>
+
+      <section class="search-section">
+        <h2>Pesquisar no Documento</h2>
+        <div class="search-box">
+          <input type="text" id="search-query" placeholder="Digite seu termo de pesquisa ou pergunta...">
+          <button id="search-btn">Pesquisar</button>
+        </div>
+      </section>
+
+      <section class="results-section">
+        <h2>Resultados da Pesquisa</h2>
+        <div id="results-container" class="results-container">
+          <p class="placeholder-text">Nenhum resultado para exibir. Carregue um PDF e digite um termo de pesquisa para começar.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 SearchWeb. Todos os direitos reservados.</p>
+    </footer>
+    <script src="static/script.js"></script>
+  </body>
+</html>
