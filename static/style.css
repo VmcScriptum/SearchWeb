@@ -1,0 +1,59 @@
+:root {
+    --cor-principal: #ff00006a;
+    --cor-texto: #333;
+    --text-light: #555;
+    --hover-color: #0f2a44;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image : url('../imagem_fundo.jpg');
+    background-size: cover;
+    
+}  
+header {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    text-align: center;
+    padding: 2rem;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--cor-texto);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: var(--cor-texto);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--cor-texto);
+    text-align: left;
+    margin-top: 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid var(--cor-principal);
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
