@@ -1,15 +1,13 @@
 :root {
-    --cor-principal: #ff00006a;
-    --cor-texto: #333;
+    --cor-principal: #ff000092;
+    --cor-texto: #000000;
     --text-light: #555;
     --hover-color: #0f2a44;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-image : url('../imagem_fundo.jpg');
-    background-size: cover;
-    
+    background-color: #ffffff;
 }  
 header {
     background-color: var(--cor-principal);
