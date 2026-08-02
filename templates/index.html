@@ -13,12 +13,15 @@
     <main>
     <h3>Para começar a pesquisar, digite o que deseja pesquisar no campo abaixo:</h3>
     <div class="pesquisa-container">
-      <input class="pesquisa" type="text" placeholder="Pesquise o que quiser, encontre o que procura..." maxlength="250">
-    <button class="btn_pesquisar">
+      <input class="pesquisa" id="pesquisa" type="text" placeholder="Pesquise o que quiser, encontre o que procura..." maxlength="250">
+    <button onclick="pesquisar()" class="btn_pesquisar">
       🔍
     </button>
+    <span id="resultado"></span>
+    <script src="../static/script.js"></script>
     </div>
     </main>
     <footer>&copy; 2026 VmcScriptum. Todos os direitos reservados.</footer>
+    
   </body>
 </html>
