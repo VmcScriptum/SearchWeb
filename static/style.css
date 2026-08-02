@@ -15,6 +15,27 @@ header {
     text-align: center;
     padding: 1rem;
 }
+.btn_pesquisar {
+    background-color: #f8f8f8a7;
+    color: var(--cor-texto);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: -60px;
+}
+.pesquisa{
+    width: 100%;
+    max-width: 800px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
 h1 {
     font-size: 2rem;
     font-weight: bold;
