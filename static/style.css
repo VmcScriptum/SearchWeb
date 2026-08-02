@@ -13,7 +13,7 @@ header {
     background-color: var(--cor-principal);
     color: var(--cor-texto);
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 h1 {
     font-size: 2rem;
