@@ -2,7 +2,7 @@ function pesquisar() {
 
     var textoPesquisa = document.getElementById("pesquisa").value;
 
-    document.getElementById("resultado").innerHTML = "Pesquisando: " + textoPesquisa;
+    document.getElementById("texto-resposta").innerHTML = "Pesquisando: " + textoPesquisa;
 
     fetch('/api/pesquisar', {
         method: 'POST',
@@ -13,7 +13,7 @@ function pesquisar() {
     })
     .then(response => response.json())
     .then(data => {
-        // 3. Recebe a resposta do Python e atualiza a tela
+
         document.getElementById("resultado").innerHTML = "Resposta do Python: " + data.resposta;
     })
     .catch((error) => {
