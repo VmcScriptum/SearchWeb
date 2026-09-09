@@ -1,13 +1,47 @@
 .title {
-    color: #000000;
-    font-size: 40px;
+    color: #1F2937;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 800; 
     text-align: center;
-    margin-bottom: 25px;
+    letter-spacing: -1px; /* Aproxima levemente as letras*/
+    margin-bottom: 10px;
 }
 
 .subtitle {
-    color: #000000;
-    font-size: 26px;
+    color: #6B7280; 
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px; 
+    font-weight: 400; /* Fonte mais fina */
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    width: 350px;           /* Largura total da barra de pesquisa */
+    margin: 0 auto;         /* Centraliza a barra inteira na tela */
+    border: 2px solid #000000; 
+    border-radius: 30px;    /* Deixa as pontas arredondadas */
+    padding: 4px;           /* Da um espaço interno entre o botao e o texto*/ 
+    background-color: #ffffff; 
+}
+
+/* 2. O INPUT FICA "INVISÍVEL" */
+#pesquisa {
+    flex-grow: 1;           /* Faz o input crescer e empurrar o botao pro canto */
+    border: none;           /* Tira a borda padrao do input(caixa de texto) */
+    outline: none;          /*Tira aquele contorno preto quando clica */
+    background: transparent;/* Fundo transparente para misturar com a div */
+    padding: 10px 15px;     /* Espaço para o texto não colar nas bordas */
+}
+
+/* 3. O BOTÃO FICA ESTILIZADO DENTRO DA CAIXA */
+.pesquisar {
+    background-color: #007bff; 
+    color: white;            
+    border: none;              /* Tira a borda padrao cinza feia do botao */
+    border-radius: 25px;       /* Arredonda o botão para ficar semelhante com a caixa */
+    padding: 10px 20px;        /* Tamanho do botao */
+    cursor: pointer;           /* Muda o mouse para a maozinha ao passar por cima */
 }
