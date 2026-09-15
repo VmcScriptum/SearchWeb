@@ -9,9 +9,11 @@
 <body>
     <h1 class="title">Bem vindo ao SearchWeb!</h1>
     <h1 class="subtitle">Aqui você realiza <strong> pesquisas através de pdf's</strong>, para pesquisas técnicas e científicas.</h1>
-     <div class="search">
+     <form id="form-pesquisa" class="search">
     <input type="text" id="pesquisa" placeholder="Digite aqui o que você deseja pesquisar..." required />
     <button class="pesquisar" type="submit">Pesquisar</button>
-  </div>
+     </form>
+  <div id="resultados" class="container-resultados"></div>
+  <script src="/SearchWeb/js/script.js"></script>
 </body>
 </html>

@@ -27,7 +27,6 @@
     background-color: #ffffff; 
 }
 
-/* 2. O INPUT FICA "INVISÍVEL" */
 #pesquisa {
     flex-grow: 1;           /* Faz o input crescer e empurrar o botao pro canto */
     border: none;           /* Tira a borda padrao do input(caixa de texto) */
@@ -36,7 +35,7 @@
     padding: 10px 15px;     /* Espaço para o texto não colar nas bordas */
 }
 
-/* 3. O BOTÃO FICA ESTILIZADO DENTRO DA CAIXA */
+
 .pesquisar {
     background-color: #007bff; 
     color: white;            
@@ -44,4 +43,18 @@
     border-radius: 25px;       /* Arredonda o botão para ficar semelhante com a caixa */
     padding: 10px 20px;        /* Tamanho do botao */
     cursor: pointer;           /* Muda o mouse para a maozinha ao passar por cima */
+}
+
+#resultados{
+    width: 100%;
+  height: 400px; /* Define o tamanho grande e fixo */
+  padding: 15px;
+  border: 1px solid #ccc; /* Mesmo estilo visual do input */
+  border-radius: 8px;
+  background-color: #fcfcfc;
+  
+  /* Permite rolar apenas o conteúdo interno se passar de 400px */
+  overflow-y: auto; 
+  box-sizing: border-box;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.03);
 }
